@@ -10,8 +10,8 @@ body {
   margin: 0;
   background-color: #FFFBF5;
   font-family: 'Manrope', sans-serif;
-  line-height: 2em;
-  font-size: 16px;
+  line-height: 1.8em;
+  font-size: 15px;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
@@ -22,13 +22,14 @@ header {
   background-color: #FFFBF5;
   border-bottom: solid 1px #000;
   text-align: center;
+  line-height: 0;
   position: fixed;
   width: 100%;
-  padding-top: 1em;
+  padding: 1em 0 1em;
 }
 
-img {
-  width: 7em;
+.logo {
+  width: 10em;
 }
 
 .nav-toggle {
@@ -121,25 +122,25 @@ nav a {
 /* <----LANDING PAGE----> */
 
 .landing-page {
-  padding: 1.5em;
-  padding-top: 5em;
+  padding: 6em 1.5em 3em;
   margin: 0 auto;
 }
 
-/* .align-right {
+.align-right {
+  width: 37%;
   text-align: right;
-  float:l eft;
-} */
+}
 
 .playfair {
+  line-height: 1.5em;
   font-size: 41.05px;
   font-weight: 400;
   font-family: 'Playfair Display', serif;
-  line-height: 1.5em;
-  margin: 0 0 .5em;
+  margin: .5em 0 .5em;
 }
 
 .great-vibe {
+  line-height: 0;
   font-size: 51.96px;
   font-family: 'Great Vibes', cursive;
 }
@@ -175,9 +176,7 @@ span.arrow {
 
 .marquee .inner span {
   white-space: nowrap;
-  font-size: 16px;
   padding: .25em;
-
 }
 
 @keyframes marquee {
@@ -189,4 +188,59 @@ span.arrow {
 a {
   text-decoration: none;
   color: #221F20;
+}
+
+/* <----WORK----> */
+
+.work {
+  padding: 0 1.5em 3em;
+  background-color: #221F20;
+}
+
+.white-h2 {
+  font-size: 22.78px;
+  font-weight: 300;
+  color: #FFFBF5;
+  text-align: center;
+  margin: 0;
+  padding: 1em 0 2em;
+}
+
+.white-great-vibe-h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 36.49px;
+  color: #FFFBF5;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card-img {
+  width: 100%;
+  border: 1px solid #FFFBF5;
+}
+
+.six-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 1em 0 1em;
+}
+
+.six-grid h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22.78px;
+  font-weight: 400;
+  color: #FFFBF5;
+  margin-bottom: .5em;
+}
+
+.six-grid h3 {
+  font-size: 1em;
+  font-weight: 300;
+  color: #FFFBF5;
+  margin-top: 0;
 }
