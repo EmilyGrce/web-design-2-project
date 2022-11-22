@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #FFFBF5;
   font-family: 'Manrope', sans-serif;
   line-height: 2em;
   font-size: 16px;
@@ -18,7 +19,7 @@ body {
 /* <----NAVBAR----> */
 
 header {
-  background-color: #fff;
+  background-color: #FFFBF5;
   border-bottom: solid 1px #000;
   text-align: center;
   position: fixed;
@@ -27,11 +28,7 @@ header {
 }
 
 img {
-  width: 7.5em;
-}
-
-.logo {
-  color: black;
+  width: 7em;
 }
 
 .nav-toggle {
@@ -81,7 +78,7 @@ nav {
   text-align: left;
   padding-top: 1em;
   top: 100%;
-  background: #fff;
+  background: #FFFBF5;
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -101,7 +98,7 @@ nav li {
 
 
 nav a {
-  color: black;
+  color: #221F20;
   text-decoration: none;
   text-transform: uppercase;
   opacity: 0;
@@ -119,4 +116,77 @@ nav a {
 .nav-toggle:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
+}
+
+/* <----LANDING PAGE----> */
+
+.landing-page {
+  padding: 1.5em;
+  padding-top: 5em;
+  margin: 0 auto;
+}
+
+/* .align-right {
+  text-align: right;
+  float:l eft;
+} */
+
+.playfair {
+  font-size: 41.05px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5em;
+  margin: 0 0 .5em;
+}
+
+.great-vibe {
+  font-size: 51.96px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.no-outline-btn {
+  border: none;
+  background: none;
+  font-size: 14.22px;
+  font-family:'Manrope', sans-serif;
+  font-weight: 400;
+}
+
+span.arrow {
+  font-size: 1.2em;
+  vertical-align: -3px;
+  padding-left: .5em;
+}
+
+/* <----LOOP----> */
+
+.marquee {
+  overflow: hidden;
+  padding: 1em;
+  border-top: 1px solid #221F20;
+  border-bottom: 1px solid #221F20;
+}
+
+.marquee .inner {
+  display: flex;
+  width: fit-content;
+  animation: marquee 25s linear infinite;
+}
+
+.marquee .inner span {
+  white-space: nowrap;
+  font-size: 16px;
+  padding: .25em;
+
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #221F20;
 }
