@@ -9,9 +9,10 @@ html {
 body {
   margin: 0;
   background-color: #FFFBF5;
+  font-weight: 400;
   font-family: 'Manrope', sans-serif;
   line-height: 1.8em;
-  font-size: 15px;
+  font-size: 14.44px;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
@@ -80,7 +81,7 @@ nav {
   text-align: left;
   padding-top: 1em;
   top: 100%;
-  background: #FFFBF5;
+  background-color: #FFFBF5;
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -251,7 +252,6 @@ article > img {
   margin-top: 0;
 }
 
-
 div a > .blk-btn {
   margin: 2em auto 1em;
   height: 45px;
@@ -391,8 +391,6 @@ div > .blk-btn {
   font-family: 'Playfair Display', serif;
 }
 
-
-
 div > .white-btn-centered {
   display: block;
   margin: 1em auto 1em;
@@ -413,11 +411,27 @@ div > .white-btn-centered {
   cursor: pointer;
 }
 
+/* <----FOOTER----> */
+.wrapper-footer {
+  padding: 0 1.5em 3em;
+  background-color: #221F20;
+}
+
+.wrapper-footer > h2 {
+  text-align: center;
+  font-size: 22.78px;
+  font-weight: 300;
+  color: #FFFBF5;
+  padding: 2em 0 2em;
+  margin: 0;
+}
+
+
 @media only screen and (min-width: 38em) {
 
 /* <----NAV----> */
 
-/* .nav-toggle-label {
+.nav-toggle-label {
   display: none;
 }
 
@@ -452,11 +466,8 @@ nav a {
 nav a::before {
   content: '';
   display: block;
-  height: 5px;
-  background: black;
-  position: absolute;
   top: -0.75em;
   transform: scale(0, 1);
   transform-origin: center;
   transition: transform ease-in-out 250ms;
-} */
+}
