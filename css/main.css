@@ -246,16 +246,14 @@ article > img {
 }
 
 .six-grid h4 {
-  font-size: 1em;
   font-weight: 300;
   color: #FFFBF5;
   margin-top: 0;
 }
 
+
 div a > .blk-btn {
-  text-align: center;
-  margin: 1em auto 1em;
-  display: block;
+  margin: 2em auto 1em;
   height: 45px;
   width: 190px;
 }
@@ -306,7 +304,6 @@ section > h3 {
 }
 
 div a > .white-btn {
-  text-align: center;
   margin: 1em auto 1em;
   height: 45px;
   width: 150px;
@@ -344,7 +341,6 @@ div a > .white-btn {
 }
 
 div > h4 {
-  font-size: 1em;
   font-weight: 300;
   color: #FFFBF5;
   margin: 0;
@@ -357,9 +353,110 @@ div > h4 {
 }
 
 div > .blk-btn {
-  text-align: center;
   margin: 1em auto 1em;
   display: block;
   height: 45px;
   width: 190px;
 }
+
+/* <----WHY WORK----> */
+
+.why-work {
+  padding: 0 1.5em 3em;
+}
+
+.why-work > .blk-h2 {
+  font-size: 22.78px;
+  font-weight: 300;
+  color: #221F20;
+  text-align: center;
+  margin: 0;
+  padding: 2em 0 2em;
+}
+
+.three-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1em 0 3em;
+}
+
+.three-flex div > h4 {
+  font-weight: 500;
+  color: #221F20;
+  margin-bottom: 1em;;
+}
+
+.playfair-h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+div > .white-btn-centered {
+  display: block;
+  margin: 1em auto 1em;
+  height: 45px;
+  width: 150px;
+}
+
+.white-btn-centered {
+  font-size: 1em;
+  font-family: 'Manrope', sans-serif;
+  color: #221F20;
+  letter-spacing: 1px;
+  background-color: #FFFBF5;
+  border: 2px solid #221F20;
+  transition-duration: .5s;
+  transition-property: all;
+  transition-timing-function: linear;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 38em) {
+
+/* <----NAV----> */
+
+/* .nav-toggle-label {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0 1em;
+}
+
+nav {
+  all: unset;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-left: 3em;
+  margin-bottom: 0;
+}
+
+nav a {
+  opacity: 1;
+  position: relative;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background: black;
+  position: absolute;
+  top: -0.75em;
+  transform: scale(0, 1);
+  transform-origin: center;
+  transition: transform ease-in-out 250ms;
+} */
