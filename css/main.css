@@ -329,3 +329,37 @@ div a > .white-btn {
  background-color: #221F20;
  color: #FFFBF5;
 }
+
+/* <----SERVICES----> */
+.services {
+  background-color: #221F20;
+  padding-bottom: 3em;
+}
+
+.four-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1em 0 3em;
+}
+
+div > h4 {
+  font-size: 1em;
+  font-weight: 300;
+  color: #FFFBF5;
+  margin: 0;
+}
+
+.four-flex > div {
+  border-top: 1px solid #FFFBF5;
+  border-bottom: 1px solid #FFFBF5;
+  padding: 2em 1.5em 2em;
+}
+
+div > .blk-btn {
+  text-align: center;
+  margin: 1em auto 1em;
+  display: block;
+  height: 45px;
+  width: 190px;
+}
