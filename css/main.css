@@ -23,7 +23,7 @@ header {
   border-bottom: solid 1px #000;
   text-align: center;
   line-height: 0;
-  position: fixed;
+  position: relative;
   width: 100%;
   padding: 1em 0 1em;
 }
@@ -51,8 +51,8 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: #000;
-  height: .15em;
+  background: #221F20;
+  height: 1.5px;
   width: 1.5em;
   border-radius: 2px;
   position: relative;
@@ -76,6 +76,7 @@ header {
 
 nav {
   position: absolute;
+  line-height: 1.5em;
   text-align: left;
   padding-top: 1em;
   top: 100%;
@@ -122,8 +123,13 @@ nav a {
 /* <----LANDING PAGE----> */
 
 .landing-page {
-  padding: 6em 1.5em 3em;
+  padding: 4em 1.5em 4em;
   margin: 0 auto;
+}
+
+.line {
+  width: 25px;
+  border-bottom: 1px solid #221F20;
 }
 
 .align-right {
@@ -132,11 +138,11 @@ nav a {
 }
 
 .playfair {
-  line-height: 1.5em;
-  font-size: 41.05px;
+  line-height: 1.25em;
+  font-size: 46.18px;
   font-weight: 400;
   font-family: 'Playfair Display', serif;
-  margin: .5em 0 .5em;
+  margin: .5em 0 1em;
 }
 
 .great-vibe {
@@ -203,7 +209,7 @@ a {
   color: #FFFBF5;
   text-align: center;
   margin: 0;
-  padding: 1em 0 2em;
+  padding: 2em 0 2em;
 }
 
 .white-great-vibe-h2 {
@@ -217,10 +223,11 @@ article {
   flex-direction: column;
 }
 
-
-.card-img {
+article > img {
   width: 100%;
+  height: 100%;
   border: 1px solid #FFFBF5;
+  object-fit: cover;
 }
 
 .six-grid {
@@ -238,9 +245,87 @@ article {
   margin-bottom: .5em;
 }
 
-.six-grid h3 {
+.six-grid h4 {
   font-size: 1em;
   font-weight: 300;
   color: #FFFBF5;
   margin-top: 0;
+}
+
+div a > .blk-btn {
+  text-align: center;
+  margin: 1em auto 1em;
+  display: block;
+  height: 45px;
+  width: 190px;
+}
+
+.blk-btn {
+  font-size: 1em;
+  font-family: 'Manrope', sans-serif;
+	color: #FFFBF5;
+  letter-spacing: 1px;
+	background-color: #221F20;
+  border: 2px solid #FFFBF5;
+  transition-duration: .5s;
+	transition-property: all;
+  transition-timing-function: linear;
+  cursor: pointer;
+}
+
+.blk-btn:hover {
+ background-color: #FFFBF5;
+ color: #221F20;
+}
+
+/* <----ABOUT----> */
+.about {
+  padding: 0 1.5em 3em;
+}
+
+section > h3 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #221F20;
+  margin: 0;
+  padding: 2em 0 0;
+}
+
+.blk-great-vibe-h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 36.49px;
+  color: #221F20;
+}
+
+.blk-h2 {
+  font-size: 22.78px;
+  font-weight: 300;
+  color: #221F20;
+  padding: 1em 0 .5em;
+  margin: 0;
+}
+
+div a > .white-btn {
+  text-align: center;
+  margin: 1em auto 1em;
+  height: 45px;
+  width: 150px;
+}
+
+.white-btn {
+  font-size: 1em;
+  font-family: 'Manrope', sans-serif;
+	color: #221F20;
+  letter-spacing: 1px;
+	background-color: #FFFBF5;
+  border: 2px solid #221F20;
+  transition-duration: .5s;
+	transition-property: all;
+  transition-timing-function: linear;
+  cursor: pointer;
+}
+
+.white-btn:hover {
+ background-color: #221F20;
+ color: #FFFBF5;
 }
