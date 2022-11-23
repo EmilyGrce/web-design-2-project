@@ -202,6 +202,11 @@ a {
 .work {
   padding: 0 1.5em 3em;
   background-color: #221F20;
+  text-align: center;
+}
+
+.work-name {
+  text-align: left;
 }
 
 .white-h2 {
@@ -331,6 +336,7 @@ div a > .white-btn {
 .services {
   background-color: #221F20;
   padding-bottom: 3em;
+  text-align: center;
 }
 
 .four-flex {
@@ -344,6 +350,7 @@ div > h4 {
   font-weight: 300;
   color: #FFFBF5;
   margin: 0;
+  text-align: left;
 }
 
 .four-flex > div {
