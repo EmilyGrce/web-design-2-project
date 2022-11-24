@@ -213,7 +213,6 @@ a {
   font-size: 22.78px;
   font-weight: 300;
   color: #FFFBF5;
-  text-align: center;
   margin: 0;
   padding: 2em 0 2em;
 }
@@ -373,10 +372,10 @@ div > .blk-btn {
 }
 
 .why-work > .blk-h2 {
+  text-align: center;
   font-size: 22.78px;
   font-weight: 300;
   color: #221F20;
-  text-align: center;
   margin: 0;
   padding: 2em 0 2em;
 }
@@ -422,16 +421,63 @@ div > .white-btn-centered {
 .wrapper-footer {
   padding: 0 1.5em 3em;
   background-color: #221F20;
+  text-align: center;
 }
 
 .wrapper-footer > h2 {
-  text-align: center;
   font-size: 22.78px;
   font-weight: 300;
   color: #FFFBF5;
-  padding: 2em 0 2em;
+  padding: 2em 0 1em;
   margin: 0;
 }
+
+.manrope-h1 {
+  line-height: 1.25em;
+  font-size: 41.05px;
+  font-weight: 400;
+  color: #FFFBF5;
+  margin: 0 0 1em;
+
+}
+
+.icon {
+  width: 2em;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 3em 0 0;
+  align-items: baseline;
+}
+
+span.north {
+  font-size: 2em;
+  color: #FFFBF5;
+}
+
+/* <----FOOTER WORK.HTML----> */
+
+.wrapper-footer-work {
+  padding: 2em 1.5em 3em;
+  background-color: #FFFBF5;
+  text-align: center;
+}
+
+.manrope-h1-blk {
+  line-height: 1.25em;
+  font-size: 41.05px;
+  font-weight: 400;
+  color: #221F20;
+  margin: 0 0 1em;
+}
+
+span.north-work {
+    font-size: 2em;
+    color: #FFFBF5;
+  }
 
 
 @media only screen and (min-width: 38em) {
