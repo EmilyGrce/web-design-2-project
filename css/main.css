@@ -474,9 +474,14 @@ span.north {
   margin: 0 0 1em;
 }
 
+.footer-flex > h4 {
+  color: #221F20;
+  font-weight: 400;
+}
+
 span.north-work {
     font-size: 2em;
-    color: #FFFBF5;
+    color: #221F20;
   }
 
 
