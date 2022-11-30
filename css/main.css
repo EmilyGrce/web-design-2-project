@@ -454,7 +454,7 @@ div > .white-btn-centered {
 
 .footer-flex a > h4 {
   color: #FFFBF5;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 span.north {
@@ -471,7 +471,7 @@ span.north {
 
 /* <----FOOTER WORK.HTML----> */
 .wrapper-footer-blk {
-  padding: 1em 1.5em .5em;
+  padding: 0 1.5em .5em;
   background-color: #FFFBF5;
   text-align: center;
 }
@@ -553,21 +553,60 @@ margin: 0;
 /* <---- EXPERIENCE ABOUT.HTML----> */
 
 .my-experience {
-  padding-bottom: 4em;
+  padding-bottom: 1.5em;
   background-color: #221F20;
   text-align: center;
 }
 
-.experience-flex {
-  border-top: 1px solid #FFFBF5;
-  padding: 0 1.5em 0;
+.experience-container {
 }
 
 div > h3 {
   font-size: 18px;
   font-weight: 300;
   color: #FFFBF5;
+}
+
+.experience-flex {
+  display: flex;
+  gap: 1.5em;
+  flex-direction: column;
   text-align: left;
+  padding: 1em 1.5em;
+  border-top: solid 1px #FFFBF5;
+}
+
+.experience-container {
+  border-bottom: 1px solid #FFFBF5;
+  padding-bottom: 1em;
+}
+
+.white-p {
+  color: #FFFBF5;
+}
+
+/* <---- GRID ABOUT.HTML----> */
+.browse {
+  padding: 2em 1.5em 2em;
+}
+
+.four-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1em 0 1em;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid #221F20;
 }
 
 @media only screen and (min-width: 38em) {
