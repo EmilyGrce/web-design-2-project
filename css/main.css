@@ -198,7 +198,7 @@ a {
   color: #221F20;
 }
 
-/* <----WORK----> */
+/* <----WORK GRID----> */
 
 .work {
   padding: 0 1.5em 3em;
@@ -303,7 +303,7 @@ section > h3 {
   font-size: 22.78px;
   font-weight: 300;
   color: #221F20;
-  padding: 2em 0 1em;
+  padding: 1.5em 0 1em;
   margin: 0;
 }
 
@@ -365,7 +365,6 @@ div > .blk-btn {
 }
 
 /* <----WHY WORK----> */
-
 .why-work {
   padding: 0 1.5em 3em;
 }
@@ -495,7 +494,6 @@ span.north-white {
   }
 
 /* <---- LANDING ABOUT.HTML----> */
-
 .about-landing {
   padding: 7em 1.5em 4em;
   margin: 0 auto;
@@ -510,7 +508,6 @@ span.north-white {
 }
 
 /* <---- ABOUT ME ABOUT.HTML----> */
-
 .about-aboutme {
     padding: 0em 1.5em 4em;
 }
@@ -519,7 +516,7 @@ span.north-white {
   display: flex;
   flex-direction: column;
   margin-bottom: 1em;
-  border: 2px solid #221F20;
+  border: 1px solid #221F20;
 }
 
 .about-aboutme > img {
@@ -551,7 +548,6 @@ margin: 0;
 }
 
 /* <---- EXPERIENCE ABOUT.HTML----> */
-
 .my-experience {
   padding-bottom: 1.5em;
   background-color: #221F20;
@@ -602,17 +598,56 @@ article {
   flex-direction: column;
 }
 
-article > img {
+div > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border: 1px solid #221F20;
 }
 
+/* <----MEDIA FOR SMALL SCREEN----> */
+@media only screen and (min-width: 25em) {
+
+body {
+  font-size: 16px;
+}
+
+/* <----LANDING PAGE----> */
+.playfair {
+  font-size: 58.44px;
+}
+
+.great-vibe {
+  font-size: 73.97px;
+}
+
+.no-outline-btn {
+  font-size: 16px;
+}
+
+/* <----WORK----> */
+.six-grid {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* <----FOOTER----> */
+.footer-flex {
+  justify-content: space-evenly;
+}
+
+/* <----LANDING ABOUT.HTML----> */
+.playfair-h1 {
+  font-size: 36.49px;
+}
+
+/* <----MEDIA FOR TABLET----> */
 @media only screen and (min-width: 38em) {
+body {
+  font-weight: 300;
+}
 
 /* <----NAV----> */
-
 .nav-toggle-label {
   display: none;
 }
@@ -652,4 +687,41 @@ nav a::before {
   transform: scale(0, 1);
   transform-origin: center;
   transition: transform ease-in-out 250ms;
+}
+
+/* <----LANDING PAGE----> */
+.landing-page {
+  padding: 7em 2em 4em;
+}
+
+.playfair {
+  font-size: 83.21px;
+  padding: 0 0.25em 0 0.25em;
+}
+
+.great-vibe {
+  font-size: 105.32px;
+}
+
+.no-outline-btn {
+  font-size: 16px;
+}
+
+.align-right {
+    width: 30%;
+}
+
+/* <----WORK GRID----> */
+.six-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 0;
+}
+
+div > h4 {
+  font-size: 14.22px;
+}
+
+.six-grid h2 {
+  font-size: 20.25px;
 }
