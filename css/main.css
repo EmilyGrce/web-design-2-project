@@ -512,11 +512,9 @@ span.north-white {
     padding: 0em 1.5em 4em;
 }
 
-.about-aboutme .img-container {
+.about-me-flex {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1em;
-  border: 1px solid #221F20;
 }
 
 .about-aboutme > img {
@@ -529,7 +527,7 @@ span.north-white {
 font-size: 22.78px;
 font-weight: 300;
 color: #221F20;
-padding: 1em 0 .5em;
+padding: 1em 0 1em;
 margin: 0;
 }
 
@@ -540,7 +538,7 @@ margin: 0;
 .about-h4 {
   font-weight: 600;
   color: #221F20;
-  margin-bottom: .5em;
+  margin: 2em 0 0;
 }
 
 .fun-fact > p {
@@ -552,9 +550,6 @@ margin: 0;
   padding-bottom: 1.5em;
   background-color: #221F20;
   text-align: center;
-}
-
-.experience-container {
 }
 
 div > h3 {
@@ -607,7 +602,6 @@ div > img {
 
 /* <----MEDIA FOR SMALL SCREEN----> */
 @media only screen and (min-width: 25em) {
-
 body {
   font-size: 16px;
 }
@@ -725,3 +719,7 @@ div > h4 {
 .six-grid h2 {
   font-size: 20.25px;
 }
+
+/* <----LANDING ABOUT.HTML----> */
+.playfair-h1 {
+  font-size: 58.44px;
