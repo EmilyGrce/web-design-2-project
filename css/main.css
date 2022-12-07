@@ -921,6 +921,10 @@ div a > .blk-btn {
 }
 
 /* <----ABOUT----> */
+.about {
+  padding: 2em 5em;
+}
+
 section > h3 {
   font-size: 28.83px;
 }
@@ -973,4 +977,26 @@ div > .white-btn-centered {
 
 .manrope-h1 {
   font-size: 65.76px;
+}
+
+.manrope-h1-blk {
+  font-size: 65.76px;
+}
+
+/* <----LANDING ABOUT.HTML----> */
+.playfair-h1 {
+  font-size: 133.31px;
+}
+
+/* <----EXPERIENCE----> */
+.my-experience {
+  padding: 2em 0 2em;
+}
+
+.white-p {
+  width: 90%;
+}
+
+.company-container .white-p {
+  width: 100%;
 }
