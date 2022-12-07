@@ -763,7 +763,7 @@ body {
 /* <----WORK----> */
 div a > .blk-btn {
   height: 55px;
-  width: 250px;
+  width: 200px;
 }
 
 .six-grid h2 {
@@ -814,4 +814,59 @@ div > h4 {
 .manrope-h1 {
   font-size: 51.96px;
   letter-spacing: 2px;
+}
+
+/* <----FOOTER WORK.HTML----> */
+.blk-h2 {
+  font-size: 25.63px;
+}
+
+.manrope-h1-blk {
+  font-size: 51.96px;
+  letter-spacing: 2px;
+}
+
+/* <----LANDING ABOUT.HTML----> */
+.about-landing {
+  padding: 7em 2em 4em;
+}
+
+.playfair-h1 {
+  font-size: 93.63px;
+}
+
+.about-aboutme {
+  padding: 0em 1.5em 0 0;
+  border-top: 1px solid #221F20;
+  border-bottom: 1px solid #221F20;
+}
+
+.about-me-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.fun-fact {
+  padding: 3em 0 3em;
+}
+
+.fun-fact p {
+  width: 94%;
+}
+
+/* <----EXPERIENCE----> */
+.experience-flex {
+  flex-direction: row;
+}
+
+.experience-container {
+  width: 50%;
+  border-bottom: none;
+  border-right: 1px solid #FFFBF5;
+}
+
+/* <----GRID----> */
+.four-grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
