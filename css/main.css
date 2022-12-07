@@ -258,8 +258,8 @@ article > img {
 
 div a > .blk-btn {
   margin: 2em auto 1em;
-  height: 45px;
-  width: 190px;
+  height: 55px;
+  width: 200px;
 }
 
 .blk-btn {
@@ -309,7 +309,7 @@ section > h3 {
 
 div a > .white-btn {
   margin: 1em auto 1em;
-  height: 45px;
+  height: 55px;
   width: 150px;
 }
 
@@ -361,7 +361,7 @@ div > .blk-btn {
   margin: 1em auto 1em;
   display: block;
   height: 45px;
-  width: 190px;
+  width: 200px;
 }
 
 /* <----WHY WORK----> */
@@ -398,8 +398,8 @@ div > .blk-btn {
 div > .white-btn-centered {
   display: block;
   margin: 1em auto 1em;
-  height: 45px;
-  width: 150px;
+  height: 55px;
+  width: 200px;
 }
 
 .white-btn-centered {
@@ -635,6 +635,8 @@ body {
   font-size: 36.49px;
 }
 
+}
+
 /* <----MEDIA FOR TABLET----> */
 @media only screen and (min-width: 38em) {
 body {
@@ -723,3 +725,93 @@ div > h4 {
 /* <----LANDING ABOUT.HTML----> */
 .playfair-h1 {
   font-size: 58.44px;
+}
+
+}
+
+  /* <----MEDIA FOR LARGER TABLET----> */
+@media only screen and (min-width: 60em) {
+
+body {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+/* <----LANDING PAGE----> */
+.landing-page {
+  padding: 7em 2.5em 3em;
+}
+
+.align-right {
+  width: 20%;
+  font-size: 18px
+}
+
+.playfair {
+  font-size: 133.29px;
+  margin-bottom: .85em;
+}
+
+.great-vibe {
+  font-size: 168.70px
+}
+
+.no-outline-btn {
+  font-size: 18px;
+}
+
+/* <----WORK----> */
+div a > .blk-btn {
+  height: 55px;
+  width: 250px;
+}
+
+.six-grid h2 {
+  font-size: 25.62px;
+}
+
+section > h3 {
+  font-size: 22.50px;
+}
+
+.six-grid h4 {
+  font-size: 16px;
+}
+
+/* <----ABOUT----> */
+.about p {
+  width: 92%;
+}
+
+div a > .white-btn {
+  height: 55px;
+  width: 150px;
+}
+
+/* <----SERVICES----> */
+div > h4 {
+  font-size: 18px;
+}
+
+.white-h2 {
+  font-size: 25.63px;
+}
+
+/* <----WORK----> */
+.why-work .blk-h2 {
+  font-size: 25.63px;
+}
+
+.why-work p {
+  width: 92%;
+}
+
+/* <----FOOTER----> */
+.wrapper-footer > h2 {
+  font-size: 25.63px;
+}
+
+.manrope-h1 {
+  font-size: 51.96px;
+  letter-spacing: 2px;
+}
