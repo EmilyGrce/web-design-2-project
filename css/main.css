@@ -870,3 +870,107 @@ div > h4 {
 .four-grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+}
+
+/* <----MEDIA FOR DESKTOP----> */
+@media only screen and (min-width: 90em) {
+body {
+  font-size: 20.25px;
+}
+
+.align-right {
+  font-size: 22.78px;
+}
+
+.playfair {
+  font-size: 189.81px;
+  margin-top: 0.35em;
+  margin-bottom: 0.55em;
+}
+
+
+.great-vibe {
+  font-size: 213.54px;
+}
+
+.no-outline-btn {
+  font-size: 22.78px;
+}
+
+/* <----WORK----> */
+.white-great-vibe-h2 {
+  font-size: 46.18px;
+}
+
+.white-h2 {
+  font-size: 32.44px;
+}
+
+.six-grid h2 {
+  font-size: 32.44px;
+}
+
+.six-grid h4 {
+  font-size: 20.25px;
+}
+
+div a > .blk-btn {
+  height: 65px;
+  width: 250px;
+}
+
+/* <----ABOUT----> */
+section > h3 {
+  font-size: 28.83px;
+}
+
+.blk-h2 {
+  font-size: 32.44px;
+}
+
+.blk-great-vibe-h2 {
+  font-size: 46.18px;
+}
+
+.about p {
+  width: 90%;
+}
+
+div a > .white-btn {
+  height: 65px;
+  width: 200px;
+}
+
+/* <----SERVICES----> */
+div > h4 {
+  font-size: 20.25px;
+}
+
+/* <----WORK----> */
+.why-work p {
+  width: 90%;
+}
+
+.why-work .blk-h2 {
+  font-size: 32.44px;
+}
+
+.three-flex {
+  flex-direction: row;
+  gap: 2em;
+}
+
+div > .white-btn-centered {
+  height: 65px;
+  width: 200px;
+}
+
+/* <----FOOTER----> */
+.wrapper-footer h2 {
+  font-size: 32.44px;
+}
+
+.manrope-h1 {
+  font-size: 65.76px;
+}
