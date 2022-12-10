@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* <----NAVBAR----> */
 
 header {
@@ -405,14 +409,19 @@ div > .white-btn-centered {
 .white-btn-centered {
   font-size: 1em;
   font-family: 'Manrope', sans-serif;
-  color: #221F20;
+	color: #221F20;
   letter-spacing: 1px;
-  background-color: #FFFBF5;
+	background-color: #FFFBF5;
   border: 2px solid #221F20;
   transition-duration: .5s;
-  transition-property: all;
+	transition-property: all;
   transition-timing-function: linear;
   cursor: pointer;
+}
+
+.white-btn-centered:hover {
+  background-color: #221F20;
+  color: #FFFBF5;
 }
 
 /* <----FOOTER----> */
@@ -461,6 +470,10 @@ span.north {
   color: #FFFBF5;
 }
 
+.go-top {
+
+}
+
 /* <----LANDING WORK.HTML----> */
 .work-work-html {
   padding: 3em 1.5em 3em;
@@ -488,7 +501,7 @@ span.north {
   font-weight: 400;
 }
 
-span.north-white {
+span.north-blk {
     font-size: 2em;
     color: #221F20;
   }
@@ -876,26 +889,29 @@ div > h4 {
 /* <----MEDIA FOR LAPTOP DESKTOP----> */
 @media only screen and (min-width: 90em) {
 body {
-  font-size: 20.25px;
+  font-size: 18px;
+}
+
+.landing-page {
+  padding: 7em 10em 4em;
 }
 
 .align-right {
-  font-size: 22.78px;
+  font-size: 20.25px;
 }
 
 .playfair {
-  font-size: 189.81px;
+  font-size: 168.72px;
   margin-top: 0.35em;
   margin-bottom: 0.55em;
 }
 
-
 .great-vibe {
-  font-size: 213.54px;
+  font-size: 189.81px;
 }
 
 .no-outline-btn {
-  font-size: 22.78px;
+  font-size: 20.25px;
 }
 
 /* <----WORK----> */
@@ -907,8 +923,14 @@ body {
   font-size: 32.44px;
 }
 
+.six-grid {
+  width: 90%;
+  gap: 2em;
+  margin: 0 auto;
+}
+
 .six-grid h2 {
-  font-size: 32.44px;
+  font-size: 28.83px;
 }
 
 .six-grid h4 {
@@ -916,13 +938,13 @@ body {
 }
 
 div a > .blk-btn {
-  height: 65px;
+  height: 55px;
   width: 250px;
 }
 
 /* <----ABOUT----> */
 .about {
-  padding: 2em 5em;
+  padding: 2em 5em 4em;
 }
 
 section > h3 {
@@ -942,7 +964,7 @@ section > h3 {
 }
 
 div a > .white-btn {
-  height: 65px;
+  height: 55px;
   width: 200px;
 }
 
@@ -953,7 +975,7 @@ div > h4 {
 
 /* <----WORK----> */
 .why-work p {
-  width: 90%;
+  width: 100%;
 }
 
 .why-work .blk-h2 {
@@ -962,17 +984,18 @@ div > h4 {
 
 .three-flex {
   flex-direction: row;
-  gap: 2em;
+  gap: 4em;
+  padding: 0 2em 3em;
 }
 
 div > .white-btn-centered {
-  height: 65px;
+  height: 55px;
   width: 200px;
 }
 
 /* <----FOOTER----> */
 .wrapper-footer h2 {
-  font-size: 32.44px;
+  font-size: 28.83px;
 }
 
 .manrope-h1 {
