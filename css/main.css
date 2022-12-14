@@ -22,7 +22,6 @@ html {
 }
 
 /* <----NAVBAR----> */
-
 header {
   background-color: #FFFBF5;
   border-bottom: solid 1px #000;
@@ -52,7 +51,6 @@ header {
 }
 
 /* <----HAMBURGER----> */
-
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
@@ -114,7 +112,6 @@ nav a {
 }
 
 /* <----NAV ANIMATION----> */
-
 .nav-toggle:checked ~ nav {
     transform: scale(1, 1);
     border-top: solid 1px #000;
@@ -127,7 +124,6 @@ nav a {
 }
 
 /* <----LANDING PAGE----> */
-
 .landing-page {
   padding: 7em 1.5em 4em;
   margin: 0 auto;
@@ -172,7 +168,6 @@ span.arrow {
 }
 
 /* <----LOOP----> */
-
 .marquee {
   overflow: hidden;
   padding: 1em;
@@ -203,7 +198,6 @@ a {
 }
 
 /* <----WORK GRID----> */
-
 .work {
   padding: 0 1.5em 3em;
   background-color: #221F20;
@@ -470,10 +464,6 @@ span.north {
   color: #FFFBF5;
 }
 
-.go-top {
-
-}
-
 /* <----LANDING WORK.HTML----> */
 .work-work-html {
   padding: 3em 1.5em 3em;
@@ -502,9 +492,9 @@ span.north {
 }
 
 span.north-blk {
-    font-size: 2em;
-    color: #221F20;
-  }
+  font-size: 2em;
+  color: #221F20;
+}
 
 /* <---- LANDING ABOUT.HTML----> */
 .about-landing {
@@ -522,7 +512,7 @@ span.north-blk {
 
 /* <---- ABOUT ME ABOUT.HTML----> */
 .about-aboutme {
-    padding: 0em 1.5em 4em;
+  padding: 0em 1.5em 4em;
 }
 
 .about-me-flex {
@@ -537,11 +527,11 @@ span.north-blk {
 }
 
 .blk-h2-about {
-font-size: 22.78px;
-font-weight: 300;
-color: #221F20;
-padding: 1em 0 1em;
-margin: 0;
+  font-size: 22.78px;
+  font-weight: 300;
+  color: #221F20;
+  padding: 1em 0 1em;
+  margin: 0;
 }
 
 .fun-fact {
@@ -742,7 +732,7 @@ div > h4 {
 
 }
 
-  /* <----MEDIA FOR LARGER TABLET----> */
+/* <----MEDIA FOR LARGER TABLET----> */
 @media only screen and (min-width: 60em) {
 
 body {
